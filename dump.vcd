@@ -1,0 +1,106 @@
+$date
+	Thu Apr 17 12:15:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mux8x1 $end
+$var wire 1 ! y $end
+$var reg 8 " data [7:0] $end
+$var reg 3 # sel [2:0] $end
+$scope module uut $end
+$var wire 8 $ data [7:0] $end
+$var wire 3 % sel [2:0] $end
+$var wire 1 & y2 $end
+$var wire 1 ' y1 $end
+$var wire 1 ! y $end
+$scope module mux1 $end
+$var wire 4 ( data [3:0] $end
+$var wire 2 ) sel [1:0] $end
+$var wire 1 ' y $end
+$upscope $end
+$scope module mux2 $end
+$var wire 4 * data [3:0] $end
+$var wire 2 + sel [1:0] $end
+$var wire 1 & y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b101 *
+b0 )
+b101 (
+1'
+1&
+b0 %
+b1010101 $
+b0 #
+b1010101 "
+1!
+$end
+#10
+0!
+0'
+0&
+b1 )
+b1 +
+b1 #
+b1 %
+#20
+1!
+1'
+1&
+b10 )
+b10 +
+b10 #
+b10 %
+#30
+0!
+0'
+0&
+b11 )
+b11 +
+b11 #
+b11 %
+#40
+1!
+1'
+1&
+b0 )
+b0 +
+b100 #
+b100 %
+#50
+0!
+0'
+0&
+b1 )
+b1 +
+b101 #
+b101 %
+#60
+1!
+1'
+1&
+b10 )
+b10 +
+b110 #
+b110 %
+#70
+0!
+0'
+0&
+b11 )
+b11 +
+b111 #
+b111 %
+#80
